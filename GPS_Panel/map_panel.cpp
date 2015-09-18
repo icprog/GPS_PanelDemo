@@ -7,6 +7,7 @@ MAP_Panel::MAP_Panel(const QRect& _rect,QWidget *parent) :
     QWidget(parent)
 {
     setGeometry(_rect);
+    hide();
     ztpm = new ZTPManager(7878,QHostAddress("224.102.228.40"));
     connect(ztpm,SIGNAL(readyRead()),this,SLOT(onRead()));
 }

@@ -7,7 +7,7 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
     panel = new MAP_Panel(QRect(0,0,600,400),this);
-    panel->show();
+    //panel->show();
 }
 
 MainWindow::~MainWindow()
