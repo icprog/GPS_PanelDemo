@@ -1,4 +1,3 @@
-include(ZTPManager/ZTPManager.pri)
 INCLUDEPATH += $$PWD
 DEPENDPATH += $$PWD
 
